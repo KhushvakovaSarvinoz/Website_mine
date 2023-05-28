@@ -590,4 +590,54 @@ nav p{
     color: #053640;
 }
 
+/* Responsive web design */
 
+@media only screen and (max-width:767px) {
+    .contanier{
+        width: 96%;
+    }
+
+    .main-navigation{
+        display: none;
+    }
+    .main_banner{
+        background: none;
+        min-height: auto;
+    }
+
+    .main-section_image {
+        display: none;
+    }
+
+    .main-section_info{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
+    }
+
+    /*statistics section*/
+    .statistics_item{
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+
+    /* About me section */
+    .about-me_image img{
+        display: none;
+    }
+
+    .about-me > div{
+        width: 100%;       
+    }
+
+    /* Services section */
+
+    .services-cards{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
+    }
+}
