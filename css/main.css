@@ -478,11 +478,12 @@ body{
 }
 
 .blog-item{
-   width: 30%;
-   margin-right: 0.8rem;
-   box-sizing: border-box;
-   overflow: hidden;
-}
+    width: 30%;
+    margin-right: 0.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+
 
 .blog-item:hover .blog-item_image img{
     box-shadow: 8px 10px 20px rbg(5 54 77/10%);
@@ -617,9 +618,11 @@ nav p{
     }
 
     /*statistics section*/
-    .statistics_item{
+    .statistics{
         width: 100%;
         margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
     
     }
 
@@ -627,17 +630,81 @@ nav p{
     .about-me_image img{
         display: none;
     }
-
-    .about-me > div{
-        width: 100%;       
-    }
-
-    /* Services section */
-
-    .services-cards{
+      
+    
+    .about_info{
         width: 100%;
         margin-bottom: 10px;
         display: block;
         margin-left: 100px;
     }
+
+    /* Services section */
+
+    .services{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 100px;
+
+    }
+    .services__cards>div{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 10px;
+
+
+    }
+
+ 
+
+    /* Clients section */
+
+    .clients-item_image{
+        display: none;
+    }
+
+    .clients-item__info{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
+    }
+
+    .clients{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
+    }
+    /*My portfolio */
+
+    .portfolio{
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: 100px;
+    }
+
+
+    .portfolio_item2,
+    .portfolio_item3{
+        position: static;
+    }
+
+    /* Blog */
+
+   .blog{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 100px;
+   }
+    
+
+    .blog-item_info{
+       display: none; 
+    }
+/* Footer section*/
+
 }
