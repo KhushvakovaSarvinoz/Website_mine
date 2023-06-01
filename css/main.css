@@ -543,7 +543,7 @@ body{
 /*Footer section */
 
 .footer{
-    padding:50px 0;
+    padding: 50px 0px;
     background-color:#ffa500;
     text-align: center;
     margin-top: 50px;
@@ -560,7 +560,7 @@ body{
 }
 
 .footer_navigation-item{
-    display: inline;
+    display: inline-block;
     padding: 0 10px;
 }
 
@@ -612,9 +612,7 @@ nav p{
 
     .main-section_info{
         width: 100%;
-        margin-bottom: 10px;
-        display: block;
-        margin-left: 100px;
+        margin-left: 6.2rem;
     }
 
     /*statistics section*/
@@ -636,15 +634,15 @@ nav p{
         width: 100%;
         margin-bottom: 10px;
         display: block;
-        margin-left: 100px;
+        margin-left: 100px;  
     }
 
     /* Services section */
 
     .services{
         width: 100%;
-        margin-bottom: 10px;
-        margin-left: 100px;
+        margin-bottom: 0.6rem;
+        margin-left: 6.2rem;
 
     }
 
@@ -653,14 +651,10 @@ nav p{
     }
     .services__cards>div{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         display: block;
-        border-bottom: 10px;
-
-
+        border-bottom: 0.6rem;
     }
-
- 
 
     /* Clients section */
 
@@ -673,23 +667,23 @@ nav p{
     }
     .clients-item__info{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         display: block;
     }
 
     .clients{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         display: block;
-        margin-left: 100px;
+        margin-left: 6.2rem;
     }
     /*My portfolio */
 
     .portfolio{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         display: block;
-        margin-left: 100px;
+        margin-left: 6.2rem;
     }
 
     .portfolio_items>div{
@@ -700,22 +694,20 @@ nav p{
 
     .portfolio_item__image, .portfolio_item__image2 , .portfolio_item__image3{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0.6rem;
        
     }
     .portfolio_item:hover .portfolio_item__overlay{
         visibility:hidden;
     }
 
-    
-
     /* Blog */
 
    .blog{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
         display: block;
-        margin-left: 100px;
+        margin-left: 6.2rem;
    }
    .blog-items{
         display: block;
@@ -729,7 +721,7 @@ nav p{
    }
    .blog-item_image>img{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0.6rem;
         display: block;
    }
    /* Partners */
@@ -743,11 +735,11 @@ nav p{
     display: none;
    }
 
- 
-
 /* Footer section*/
     .footer{
-        width: 150%;
-        margin-right: 0;
+        width: 100%;
+        display: block;
+        margin-left: 6.2px;
     }
+
 }
