@@ -315,7 +315,7 @@ body{
 
 /* About section*/
 .about-me{
-    padding:12.5rem 0;
+    padding:5rem 0;
     display: flex;
     align-items: center;
 }
@@ -342,7 +342,7 @@ body{
 /* Services section style*/
 
 .services{
-    padding-top: 6.25rem;
+    padding-top: 1rem;
 }
 
 .services__cards{
@@ -526,7 +526,7 @@ body{
 
 /* Blog section */
 .blog{
-    padding-top: 2.25rem;
+    padding-top: 1.25rem;
 }
 .blog-items{
     margin-top: 3.1rem;
@@ -672,7 +672,6 @@ nav p{
 
     .main-section_info{
         width: 100%;
-        margin-left: 6.2rem;
     }
 
     /*statistics section*/
@@ -681,6 +680,7 @@ nav p{
         margin-bottom: 10px;
         display: block;
         margin-left: 100px;
+        margin-top: 0.3rem;
     
     }
 
@@ -693,8 +693,8 @@ nav p{
     .about_info{
         width: 100%;
         margin-bottom: 10px;
-        display: block;
-        margin-left: 100px;  
+        display: block; 
+        margin-left: 1.5rem; 
     }
 
     /* Services section */
@@ -702,8 +702,7 @@ nav p{
     .services{
         width: 100%;
         margin-bottom: 0.6rem;
-        margin-left: 6.2rem;
-
+        margin-left: 1.5rem;
     }
 
     .services__cards{
@@ -735,7 +734,7 @@ nav p{
         width: 100%;
         margin-bottom: 0.6rem;
         display: block;
-        margin-left: 6.2rem;
+        margin-left: 1.5rem;
     }
     /*My portfolio */
 
@@ -743,7 +742,7 @@ nav p{
         width: 100%;
         margin-bottom: 0.6rem;
         display: block;
-        margin-left: 6.2rem;
+        margin-left: 1.5rem;
     }
 
     .portfolio_items>div{
@@ -767,7 +766,7 @@ nav p{
         width: 100%;
         margin-bottom: 0.6rem;
         display: block;
-        margin-left: 6.2rem;
+        margin-left: 1.5rem;
    }
    .blog-items{
         display: block;
@@ -797,9 +796,8 @@ nav p{
 
 /* Footer section*/
     .footer{
-        width: 100%;
+        width: 130%;
         display: block;
-        margin-left : 6.2px;
     }
 
 }
