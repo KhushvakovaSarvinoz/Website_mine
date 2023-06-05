@@ -127,6 +127,7 @@ body{
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
 }
 
 .main-navigation__item a:hover{
@@ -142,7 +143,7 @@ body{
 
 
 .main_banner{
-    background: linear-gradient(to right, white, #f2b8c6, #fc46aa, #30a2ff);
+    background: linear-gradient(to right, black, #30a2ff);
     background-size: cover;
     height: 653px;
 }
@@ -167,7 +168,7 @@ body{
     margin-bottom: 1.25rem;
     letter-spacing: 2px;
     font-size: 2.25rem ;
-    color:#797979;
+    color: #f2b8c6;
     animation: slideRight 1s ease forwards;
     opacity: 0;
     animation-delay: 1s;
@@ -189,10 +190,14 @@ body{
     font-weight: 700;
     margin-bottom: 1.25rem;
     font-size: 2.8rem;
-    color:#05364d;
+    color:#e11584;
     animation: slideLeft 1s ease forwards;
     opacity:0;
     animation-delay: 1.2s;
+}
+
+#name{
+    cursor: pointer;
 }
 
 @keyframes slideLeft  {
@@ -211,7 +216,7 @@ body{
     font-weight: 300;
     margin-bottom: 1.25rem;
     font-size: 1.5rem;
-    color: #053640; 
+    color: #f2b8c6; 
     animation: part2 1s ease forwards;
     opacity: none;  
     
