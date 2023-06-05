@@ -51,7 +51,7 @@ body{
 
 .button{
     border:none;
-    background: linear-gradient(to right, #fc46aa, #30a2ff);
+    background: radial-gradient(circle, #fff, #f2b8c6, #e11584);
     color:#053640;
     font-weight: 700;
     font-size: 0.8rem;
@@ -143,9 +143,9 @@ body{
 
 
 .main_banner{
-    background: linear-gradient(to right, black, #30a2ff);
     background-size: cover;
     height: 653px;
+    background-image: url(../images/main/bac_image.png) ;
 }
 
 .main-section{
@@ -163,12 +163,13 @@ body{
 
 .main-section_welcome{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     font-style: oblique;
+    padding-top: 2rem;
     margin-bottom: 1.25rem;
     letter-spacing: 2px;
     font-size: 2.25rem ;
-    color: #f2b8c6;
+    color: #05364d;
     animation: slideRight 1s ease forwards;
     opacity: 0;
     animation-delay: 1s;
@@ -213,10 +214,10 @@ body{
 }
 .main-section_position{
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 1.25rem;
     font-size: 1.5rem;
-    color: #f2b8c6; 
+    color: #05364d; 
     animation: part2 1s ease forwards;
     opacity: none;  
     
@@ -234,7 +235,7 @@ body{
 }
 
 .main-section__social-networks a{
-    color:#797979;
+    color:#05364d;
     font-size: 1.5rem;
     cursor: pointer;
     display: inline-block;
@@ -298,7 +299,7 @@ body{
 
 /* About section*/
 .about-me{
-    padding:5rem 0;
+    padding-top:5rem;
     display: flex;
     align-items: center;
 }
@@ -327,7 +328,7 @@ body{
 /* Services section style*/
 
 .services{
-    padding-top: 1rem;
+    padding-top: 6.25rem;
 }
 
 .services__cards{
@@ -375,13 +376,24 @@ body{
 .clients_section{
     padding-top: 6.25rem;
 }
-.carousel-inner{
-    padding-top: 6.25rem;
+
+.banner{
+    background-image: url(../images/clients/c.png);
+    background-repeat: no-repeat;
+    background-size: 30rem, 30rem;
+    background-position: right;
+    height: 20rem;
 }
 
-.d-block{
-    height: 300px;
-    width: 100%;
+.banner2{
+    background-image: url(../images/clients/c3.png);
+    background-repeat: no-repeat;
+    background-size: 30rem, 30rem;
+    background-position: right;
+    height: 20rem;
+}
+.carousel-inner{
+    padding-top: 2rem;
 }
 
 
@@ -414,7 +426,7 @@ body{
 /* Portfolio section */
 
 .portfolio{
-    padding: 5.25rem 0;
+    padding-top: 5.25rem;
 }
 
 .portfolio_filters{
@@ -507,7 +519,7 @@ body{
 
 /* Blog section */
 .blog{
-    padding-top: 1.25rem;
+    padding-top: 6.25rem;
 }
 .blog-items{
     margin-top: 3.1rem;
