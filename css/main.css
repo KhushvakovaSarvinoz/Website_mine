@@ -377,7 +377,7 @@ body{
     padding-top: 6.25rem;
 }
 
-.banner{
+.banner, .banner2{
     background-image: url(../images/clients/c.png);
     background-repeat: no-repeat;
     background-size: 30rem, 30rem;
@@ -387,10 +387,6 @@ body{
 
 .banner2{
     background-image: url(../images/clients/c3.png);
-    background-repeat: no-repeat;
-    background-size: 30rem, 30rem;
-    background-position: right;
-    height: 20rem;
 }
 .carousel-inner{
     padding-top: 2rem;
@@ -583,6 +579,7 @@ body{
 .partners{
     padding-top: 6.25rem;
     display: flex;
+    
 }
 
 .partner{
@@ -710,10 +707,6 @@ nav p{
 
     /* Clients section */
 
-    .clients-item_image{
-        display: none;
-    }
-
     .clients-item{
         display: block;
     }
@@ -721,14 +714,15 @@ nav p{
         width: 100%;
         margin-bottom: 0.6rem;
         display: block;
+        margin-left: 5rem;
     }
 
-    .clients{
-        width: 100%;
-        margin-bottom: 0.6rem;
-        display: block;
-        margin-left: 1.5rem;
+    .banner, .banner2{
+        background-image: none;
+        cursor: pointer;
     }
+
+   
     /*My portfolio */
 
     .portfolio{
@@ -778,13 +772,13 @@ nav p{
    }
    /* Partners */
    
-   .partners>div{
-    width: 33%;
-    height: 10%;
-    margin-right: 0;
+   .partners{
+    display: grid;
    }
-   .part_image3, .part_image4, .part_image5{
-    display: none;
+
+   .partner img{
+    width: 50%;
+    margin-left: 6rem;
    }
 
 /* Footer section*/
