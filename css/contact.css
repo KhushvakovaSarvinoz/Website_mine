@@ -56,10 +56,10 @@ input, textarea{
     background-color: #ddd;
 }
 .form-control:hover input ~ .check{
-    background-color: yellow;
+    background-color: #f2b8c6;
 }
 .form-control input:checked ~ .check{
-    background-color: #ffa500;
+    background-color: #e11584;
 }
 .check:after{
     left:6px;

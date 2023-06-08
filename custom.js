@@ -5,7 +5,7 @@ let type = new Typed('#changing-text', {
     loop: true,
 }) ;
 
- let name = document.querySelector ('#name');
+let name = document.querySelector ('#name')
 name.addEventListener('mouseenter', function() {
     name.textContent = 'SARVINOZ'
 }) 

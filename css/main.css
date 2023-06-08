@@ -377,17 +377,17 @@ body{
     padding-top: 6.25rem;
 }
 
-.banner, .banner2{
-    background-image: url(../images/clients/c.png);
-    background-repeat: no-repeat;
-    background-size: 30rem, 30rem;
-    background-position: right;
+.banner{
     height: 20rem;
+    background: url("../images/clients/c.png") no-repeat right;
 }
 
+
 .banner2{
-    background-image: url(../images/clients/c3.png);
+    height: 20rem;
+    background: url("../images/clients/c3.png") no-repeat right;
 }
+
 .carousel-inner{
     padding-top: 2rem;
 }
