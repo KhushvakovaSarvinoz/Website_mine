@@ -644,10 +644,6 @@ nav p{
 /* Responsive web design */
 
 @media only screen and (max-width:767px) {
-
-    
-}
-@media only screen and (max-width:425px) {
     .contanier{
         width: 96%;
     }
@@ -718,7 +714,6 @@ nav p{
         width: 100%;
         margin-bottom: 0.6rem;
         display: block;
-        margin-left: 5rem;
     }
 
     .banner, .banner2{
