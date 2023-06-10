@@ -10,98 +10,106 @@
         <link rel="icon" type="image/png" href="images/icon/logo1.png" >
     </head>
     <body>
-        <!-- Header section -->
-        <header class="main-header">
-            <div class="contanier">    
-                <div class="main-header__brand">
-                    <a href="index.html">
-                        <img src="images/icon/logo2.png" alt="logo">    
-                    </a>           
-                </div>
-                <nav class="main-navigation">
-                    <ul class="main-navigation__items">
-                        <li class="main-navigation__item active">
-                            <a href=index.html>Main section</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#about-me>About me</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#services>Services</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#clients_section>Clients</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#Portfolio>Portfolio</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#Blog>Blog</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=#Partners>Partners</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <a href=contact.htm>Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!--/Header section-->
-
-        <!--Main section-->
-        <div class="contanier">
-            <div class="main_banner">
-                <section id="main-section" class="main-section">
-                    <div class="main-section_info">
-                        <h4 class="main-section_welcome"> Welcome!</h4>
-                        <h4 class="main-section_introduction"> I am <span id="name">Khushvakova</span></h4>
-                        <h4 class="main-section_position" id="changing-text"> FRONT-END DEVELOPER, GOOD SPECIALIST</h4>
-                        <div class="main-section__social-networks">
-                            <a href="https://t.me/sarvinozxushvaqova"><i class="fab fa-telegram" style="--i: 1"> </i></a>
-                            <a href="https://instagram.com/sarvinozxushvaqova"><i class="fab fa-instagram" style="--i: 2"> </i></a>
-                            <a href="https://facebook.com/sarvinozxushvaqova"><i class="fab fa-facebook" style="--i: 3"> </i></a>                    
-                        </div>
-                        <button type="button" class="button">
-                            See my works
-                        </button>
+        <!---------- Navigation section ------------->
+        <nav class="navbar bkg_color fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PORTFOLIO</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bkg_color" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title nav_btn" id="offcanvasDarkNavbarLabel">Portfilio items</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="main-section_image">
-                        <img src="images/main/dddd.png" alt="My image">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="main_nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=index.html> Main section </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#about-me>About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#services>Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#clients_section>Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#Portfolio>Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#Blog>Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=#Partners>Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav_btn" href=contact.htm>Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="button" type="submit">Search</button>
+                        </form>
                     </div>
-                </section>
+                </div>
             </div>
-        </div>
-        <div class="claerfix"></div> 
-        <!--/Main section-->
+        </nav>
 
-        <!--Statistics-->
-        <div class="contanier">
-            <section id="statistics" class="statistics">
-                <div class="statistics_item">
-                    <h3 class="statistics__number">
-                        16K+
-                    </h3>
-                    <p class="statistics_title"> Happy customer</p>
+        <!-----------/Navigation section------------->
+
+        <!----------  Main section------------------->
+        <div class="main_banner">
+            <section id="main-section" class="main-section">
+                <div class="main-section_info">
+                    <h4 class="main-section_welcome"> Welcome!</h4>
+                    <h4 class="main-section_introduction"> I am <span id="name">Khushvakova</span></h4>
+                    <h4 class="main-section_position" id="changing-text"> FRONT-END DEVELOPER, GOOD SPECIALIST</h4>
+                    <div class="main-section__social-networks">
+                        <a href="https://t.me/sarvinozxushvaqova"><i class="fab fa-telegram" style="--i: 1"> </i></a>
+                        <a href="https://instagram.com/sarvinozxushvaqova"><i class="fab fa-instagram" style="--i: 2"> </i></a>
+                        <a href="https://facebook.com/sarvinozxushvaqova"><i class="fab fa-facebook" style="--i: 3"> </i></a>                    
+                    </div>
+                    <button type="button" class="button">
+                        See my works
+                    </button>
+                    <div class="contanier">
+                        <section id="statistics" class="statistics">
+                            <div class="statistics_item">
+                                <h3 class="statistics__number">
+                                    16K+
+                                </h3>
+                                <p class="statistics_title"> Happy customer</p>
+                            </div>
+                            <div class="statistics_item">
+                                <h3 class="statistics__number">
+                                    10K+
+                                </h3>
+                                <p class="statistics_title"> Ticket Solved</p>
+                            </div>
+                            <div class="statistics_item">
+                                <h3 class="statistics__number">
+                                    9/10
+                                </h3>
+                                <p class="statistics_title"> Averange Rating</p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div class="statistics_item">
-                    <h3 class="statistics__number">
-                        10K+
-                    </h3>
-                    <p class="statistics_title"> Ticket Solved</p>
-                </div>
-                <div class="statistics_item">
-                    <h3 class="statistics__number">
-                        9/10
-                    </h3>
-                    <p class="statistics_title"> Averange Rating</p>
+                <div class="main-section_image">
+                    <img src="images/main/dddd.png" alt="My image">
                 </div>
             </section>
         </div>
-        <!--Statistics-->
 
-        <!--About section-->
+        <!------------/Main section------------------>
+
+        <!-------------About section----------------->
         <div class="contanier">
             <section id="about-me" class="about-me">
                 <div class="about-me_image">
@@ -116,9 +124,9 @@
                         Web-developer(Frontend)
                     </h3>
                     <p class="about-description">
-                        My name is Khushvakova Sarvinoz. I am 29 years old. 
-                        I have been learning coding for more than a year.
-                        During that time I have been learned Python, HTML5, CSS3 and JavaScript.
+                        My name is Khushvakova Sarvinoz. I am 29 years old. <br>
+                        I have been learning coding for more than a year. <br>
+                        During that time I have been learned Python, HTML5, CSS3 and JavaScript.<br>
                         With using these languages I have made number of simple programs.
                     </p>
                     <button type="button" class="button" >
@@ -128,7 +136,7 @@
             </section>
         </div>
         <div class="clearfix"></div>
-        <!--/About section-->
+        <!------------/About section--------------->
 
         <!-- Services section-->
         <div class="contanier">

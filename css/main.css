@@ -16,8 +16,8 @@ body{
 }
 
 .contanier{
-    width: 1140px;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 3rem;
 }
 
 .section-subtitle{
@@ -25,7 +25,7 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 0.625rem;
-    color:#e11584;
+    color:#0ef;
     
 }
 
@@ -44,27 +44,29 @@ body{
     margin-left: 0.32rem;
     width: 88px;
     height: 4px;
-    background-color: rgba(210, 21, 153, 0.8);
+    background-color: rgba(116, 200, 202, 0.953);
     filter:blur(3px);
     border-radius: 4px;
 }
 
 .button{
     border:none;
-    background: radial-gradient(circle, #fff, #f2b8c6, #e11584);
+    background-color: #0ef;
     color:#053640;
+    box-shadow: 0 0 20px #0ef;
     font-weight: 700;
     font-size: 0.8rem;
     border-radius: 5px;
-    padding: 1.25rem 2.5rem;
+    padding: 1rem 3rem;
     cursor: pointer;
     margin-top: 1.25rem;
     vertical-align: middle;
     transition: all 1s ease-in-out;
+    
 }
 
 .button:hover{
-    background: linear-gradient(to left,#fc46aa, #30a2ff );
+    box-shadow: none;
 }
 
 .link{
@@ -74,8 +76,7 @@ body{
     color: #05364d;
     text-decoration: none;
     border:none;
-    background-color:#053640;
-    color:#fff;
+    background-color:#0ef;
     font-size: 0.7rem;
     border-radius: 0.3rem;
     padding: 0.6rem 2.5rem;
@@ -86,66 +87,49 @@ body{
 }
 
 .link:hover{
-    color:white;
+    box-shadow: 0 0 20px #0ef;
 }
 
 .clearfix{
     clear: both;
 }
-
-/* Main header styles */
-.main-header{
-    position:fixed;
-    background-color: white;
-    top:0;
-    left:0;
-    width: 100%;
-    box-shadow: 0px 3px 16px 0px rgb(0 0 0 /10%);
-    z-index: 10;
+/* Navigation section */
+.bkg_color{
+    background-color: #05364d;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #0ef;
+    margin-left: 2rem;
+}
+.navbar-toggler{
+    color:#0ef;  
+    box-shadow: 0 0 20px #0ef;
 }
 
-.main-header .contanier{
-    display:flex;
-    align-items: center;
+.main_nav-link{
+    color: #0ef;
+    font-size: 1.5rem;
 }
 
-.main-header__brand img {
-    width: 200px;
-    height: 70px;
-    border-radius: 1rem;
-}
-
-.main-navigation__item{
-    display: inline-block;
-    padding: 0.625rem;
-}
-.main-navigation__item a{
-    color:#05364d;
+.nav_btn{
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
-.main-navigation__item a:hover{
-    color:#e11584;
+.nav_btn:hover {
+    color:#0ef
 }
-
-.main-navigation__item:active a{
-    color:#FFFF;
-}
-
 
   /* Main section styles*/
 
-
 .main_banner{
-    background-size: cover;
-    height: 653px;
-    background-image: url(../images/main/bac_image.png) ;
+    height: 570px;
+    background-color: #05364d;
+    margin: 0;
+    width: 100%;
+    
 }
 
 .main-section{
@@ -156,9 +140,10 @@ body{
 
 
 .main-section_image img{
-    text-align: right;
     margin-bottom: 2.5rem;
-    width: 80%;
+    width: 60%;
+    box-shadow: 0 0 20px #0ef;
+    margin-left: 10rem;
 }
 
 .main-section_welcome{
@@ -166,10 +151,10 @@ body{
     font-weight: 600;
     font-style: oblique;
     padding-top: 2rem;
-    margin-bottom: 1.25rem;
-    letter-spacing: 2px;
-    font-size: 2.25rem ;
-    color: #05364d;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+    font-size: 2rem ;
+    color: #fff;
     animation: slideRight 1s ease forwards;
     opacity: 0;
     animation-delay: 1s;
@@ -189,9 +174,9 @@ body{
 .main-section_introduction{
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     font-size: 2.8rem;
-    color:#e11584;
+    color:#fff;
     animation: slideLeft 1s ease forwards;
     opacity:0;
     animation-delay: 1.2s;
@@ -215,9 +200,9 @@ body{
 .main-section_position{
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
-    color: #05364d; 
+    color: #0ef; 
     animation: part2 1s ease forwards;
     opacity: none;  
     
@@ -235,7 +220,7 @@ body{
 }
 
 .main-section__social-networks a{
-    color:#05364d;
+    color:#0ef;
     font-size: 1.5rem;
     cursor: pointer;
     display: inline-block;
@@ -260,15 +245,12 @@ body{
 }
 
 .main-section__social-networks a:hover i {
-    color:#e11584;
+    box-shadow: 0 0 20px #0ef;
 
 }
 
-
-/* Statistics section */
-
 .statistics{
-    padding-top: 0.3rem;
+    padding-top: 3.55rem;
     display: flex;
 }
 .statistics_item{
@@ -277,29 +259,31 @@ body{
     margin-right: 1.25rem;
     width: 150px;
 }
-.statistics_item:hover{
-    background-color: #e11584;
-   
-}
 
 .statistics__number{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 0.3rem;
     vertical-align: middle;
-    background: linear-gradient(90deg, #fc46aa 20%, #30a2ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:#fff
+
 }
 .statistics_title{
-    font-size: 1rem;
-    color:#053640;
+    font-size: 0.8rem;
+    color:#0ef;
     font-weight: 300;
 }
 
 
+.statistics_title:hover{
+    box-shadow: 0 0 20px #0ef;
+    cursor: pointer;
+}
+
+
+
 /* About section*/
 .about-me{
-    padding-top:5rem;
+    padding-top:3rem;
     display: flex;
     align-items: center;
 }
@@ -313,8 +297,9 @@ body{
     margin: 3.1rem 1.25rem;
     height: 300px;
     text-align: center;
-    background: linear-gradient(to right, white, #f2b8c6, #fc46aa, #30a2ff);
+    background-color: #05364d;
     border-radius: 50%;
+    box-shadow: 0 0 20px #0ef;
 }
 
 .section-description{
@@ -337,8 +322,8 @@ body{
 }
 
 .services-card{
-    padding: 3.75rem 1.8rem;
-    background-color: #f2b8c6;
+    padding: 3.75rem 2.8rem;
+    background-color: #05364d;
     margin-right: 3%;
     text-align: center;
     box-sizing: border-box;
@@ -346,28 +331,28 @@ body{
 }
 
 .services-card__title{
-    color:#053640;
+    color:#fff;
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 1.25rem;
     text-transform: uppercase;
 }
 
-.services-card__description{
+.services-card_description{
     font-size: 0.8rem;
     line-height: 27px;
     font-weight: 300;
-    color:#797979;
+    color:#fff;
 }
 
 .services-card:hover{
-    background-color: #e11584;
+    background-color: #fff;
     transition: all 1s ease-in-out;
 }
 
 .services-card:hover .services-card__title,
 .services-card:hover .services-card_description{
-    color:#30a2ff;
+    color:#05364d;
 }
 
 
@@ -377,15 +362,18 @@ body{
     padding-top: 6.25rem;
 }
 
+
 .banner{
     height: 20rem;
-    background: url("../images/clients/c.png") no-repeat right;
+    background: url("../images/clients/client_1.png") no-repeat right;
+    margin-right: 2.7rem;
 }
 
 
 .banner2{
     height: 20rem;
-    background: url("../images/clients/c3.png") no-repeat right;
+    background: url("../images/clients/client_2.png") no-repeat right;
+    margin-right: 2.7rem;
 }
 
 .carousel-inner{
@@ -782,7 +770,7 @@ nav p{
 
 /* Footer section*/
     .footer{
-        width: 130%;
+        width: 140%;
         display: block;
     }
 
