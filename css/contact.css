@@ -1,7 +1,3 @@
-.contact-control{
-    padding: 6.25rem, 1.8rem;
-    display: block;
-}
 
 .contact-control>div{
     width: 50%;
@@ -15,9 +11,6 @@
     
 }
 
-.contanier-item{
-    padding-top: 6.25rem;
-}
 .form-group{
     padding:50px;
 }
@@ -59,7 +52,7 @@ input, textarea{
     background-color: #f2b8c6;
 }
 .form-control input:checked ~ .check{
-    background-color: #e11584;
+    background-color: #0ef;
 }
 .check:after{
     left:6px;

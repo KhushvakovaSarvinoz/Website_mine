@@ -1,5 +1,6 @@
 let conName = document.querySelector ('#user_name'),
     message = document.querySelector ('#message')
+    
 
 
 conName.addEventListener('input', function() {

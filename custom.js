@@ -1,9 +1,9 @@
-let type = new Typed('#changing-text', {
-    strings : ["Front-end Developer", "Good Specialist"],
+let type = new Typed('#changing-text',{
+    strings : ["Front-end Developer", "Good specialist"],
     typeSpeed: 50,
     backSpeed: 50,
     loop: true,
-}) ;
+});
 
 let name = document.querySelector ('#name')
 name.addEventListener('mouseenter', function() {
